@@ -8,6 +8,9 @@ import { Sound } from './../models/sounds.model';
 })
 export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
-  
+
+  playBeat() {
+    console.log("hi");
+  }
 
 }
