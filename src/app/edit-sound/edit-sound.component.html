@@ -1,7 +1,9 @@
 <div>
   {{childSingleBeatIndex}}
-  <button type="button" (click) ="toggle(0)">{{childSingleBeat[0].name}}</button>
-  <button type="button" (click) ="toggle(1)">{{childSingleBeat[1].name}}</button>
-  <button type="button" (click) ="toggle(2)">{{childSingleBeat[2].name}}</button>
-  <button type="button" (click) ="toggle(3)">{{childSingleBeat[3].name}}</button>
+  <button type="button" (click) ="toggle(0)">{{childSingleBeat[0].name}}{{childSingleBeat[0].switch}}</button>
+  <button type="button" (click) ="toggle(1)">{{childSingleBeat[1].name}}{{childSingleBeat[1].switch}}</button>
+  <button type="button" (click) ="toggle(2)">{{childSingleBeat[2].name}}{{childSingleBeat[2].switch}}</button>
+  <button type="button" (click) ="toggle(3)">{{childSingleBeat[3].name}}{{childSingleBeat[3].switch}}</button>
 </div>
+
+<!-- reconfigure this with a for loop -->

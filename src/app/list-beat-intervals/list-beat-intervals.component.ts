@@ -8,6 +8,7 @@ import { Sound } from './../models/sounds.model';
 })
 export class ListBeatIntervalsComponent {
   @Input() childBeats: Sound[][];
+  @Output() beatsSender = new EventEmitter();
 
   editBeat(indices: number[]) {
     let beatIndex = indices[0];
@@ -17,6 +18,6 @@ export class ListBeatIntervalsComponent {
     } else {
       this.childBeats[beatIndex][soundIndex].switch = true;
     }
-
+    this.beatsSender.emit(this.childBeats);
   }
 }
