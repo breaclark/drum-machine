@@ -10,17 +10,16 @@ export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
 
   playBeat() {
-    console.log("hi");
     for(let i=0; i<this.childBeats.length; i++) {
-      for(let j=0; j<this.childBeats[i]; j++) {
+      for(let j=0; j<this.childBeats[i].length; j++) {
         if (this.childBeats[i][j].switch === true) {
+
           let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
           audioPlayer.play();
         }
       }
       //then wait for a bit, going to have to recurse
     }
-    play each thing like in the other thing
   }
 
 }
