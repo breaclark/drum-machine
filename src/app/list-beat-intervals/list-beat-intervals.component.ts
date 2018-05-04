@@ -7,5 +7,5 @@ import { Sound } from './../models/sounds.model';
   styleUrls: ['./list-beat-intervals.component.css']
 })
 export class ListBeatIntervalsComponent {
-  @Input() childBeats: Sound[];
+  @Input() childBeats: Sound[][];
 }
