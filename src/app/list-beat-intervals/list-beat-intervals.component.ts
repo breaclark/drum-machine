@@ -23,9 +23,4 @@ export class ListBeatIntervalsComponent {
     this.beatsSender.emit(this.childBeats);
   }
 
-  snareClick() {
-    let audioPlayer = <HTMLVideoElement> document.getElementById("snare");
-    audioPlayer.play();
-  }
-
 }

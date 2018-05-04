@@ -2,9 +2,9 @@
   <li *ngFor="let soundInBeat of childSingleBeat; let j = index" [attr.data-index]="j">
     <button type="button" (click) ="toggle(j)">
       <img [src]="childSingleBeat[j].switchImg">
-      <audio autoplay ng-attr-id="sound-{{childSingleBeatIndex}}-{{j}}">
+      <audio id="sound-{{childSingleBeatIndex}}-{{j}}">
         <source [src]="childSingleBeat[j].soundFile" type="audio/mpeg">
-      Your browser does not support the audio element.
+          Your browser does not support the audio element.
       </audio>
     </button>
   </li>
