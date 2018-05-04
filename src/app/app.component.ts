@@ -8,5 +8,5 @@ import { Sound } from './models/sounds.model';
 })
 export class AppComponent {
   title = 'Drum Machine';
-  beat : Sound[] = [new Sound("kick", "fakekickfilepath"), new Sound("snare","fakesnarefilepath"), new Sound("high-hat","fakehigh-hatfilepath")];
+  beats : Sound[] = [new Sound("kick", "fakekickfilepath"), new Sound("snare","fakesnarefilepath"), new Sound("high-hat","fakehigh-hatfilepath")];
 }
