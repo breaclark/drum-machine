@@ -1,6 +1,7 @@
 export class Sound {
   public switch : boolean = false;
-  constructor(public name: string, public soundFile: string) { 
+  public switchImg : string = "./../../assets/switch-off.png";
+  constructor(public name: string, public soundFile: string) {
 
   }
 }
