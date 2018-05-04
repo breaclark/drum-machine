@@ -3,7 +3,5 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <ul>
-    <li *ngFor="let beat of beats">{{beat.name}}</li>
-  </ul>
+  <app-list-beat-intervals [childBeats] = "beats"></app-list-beat-intervals>
 </div>
