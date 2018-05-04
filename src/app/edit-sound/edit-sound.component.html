@@ -1,7 +1,7 @@
 <div>
   {{childSingleBeatIndex}}
-  <button type="button" name="button">{{childSingleBeat[0].name}}</button>
-  <button type="button" name="button">{{childSingleBeat[1].name}}</button>
-  <button type="button" name="button">{{childSingleBeat[2].name}}</button>
-  <button type="button" name="button">{{childSingleBeat[3].name}}</button>
+  <button type="button" (click) ="toggle(0)">{{childSingleBeat[0].name}}</button>
+  <button type="button" (click) ="toggle(1)">{{childSingleBeat[1].name}}</button>
+  <button type="button" (click) ="toggle(2)">{{childSingleBeat[2].name}}</button>
+  <button type="button" (click) ="toggle(3)">{{childSingleBeat[3].name}}</button>
 </div>

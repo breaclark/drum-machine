@@ -9,4 +9,9 @@ import { Sound } from './../models/sounds.model';
 export class EditSoundComponent {
   @Input() childSingleBeat: Sound[];
   @Input() childSingleBeatIndex: number;
+  @Output() toggleSender = new EventEmitter();
+
+  toggle(soundIndex: number) {
+    this.toggleSender.emit([this.childSingleBeatIndex, soundIndex]);
+  }
 }
