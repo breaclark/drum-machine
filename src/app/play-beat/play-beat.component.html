@@ -1,1 +1,6 @@
-<button type="button" (click)="playBeat(0)">Play beat</button>
+<div *ngIf="currentlyPlaying === false">
+  <button type="button" (click)="playBeat(0)">Play beat</button>
+</div>
+<div *ngIf="currentlyPlaying true">
+  <p>Playing beat</p>
+</div>

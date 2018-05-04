@@ -8,20 +8,10 @@ import { Sound } from './../models/sounds.model';
 })
 export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
-
-  // playBeat() {
-  //   for(let i=0; i<this.childBeats.length; i++) {
-  //     for(let j=0; j<this.childBeats[i].length; j++) {
-  //       if (this.childBeats[i][j].switch === true) {
-  //
-  //         let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
-  //         audioPlayer.play();
-  //       }
-  //     }
-  //   }
-  // }
+  currentlyPlaying = false;
 
   playBeat(i: number) {
+    this.currentlyPlaying = true;
     if(i < this.childBeats.length) {
       for(let j=0; j<this.childBeats[i].length; j++) {
         if (this.childBeats[i][j].switch === true) {
@@ -32,7 +22,10 @@ export class PlayBeatComponent {
       i = i + 1;
       setTimeout(() => {
         this.playBeat(i);
-      }, 300);
+      }, 350);
+    }
+    else {
+      this.currentlyPlaying = false;
     }
   }
 
