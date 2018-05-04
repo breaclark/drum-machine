@@ -9,10 +9,11 @@ import { Sound } from './../models/sounds.model';
 export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
   currentlyPlaying = false;
+  stopPlaying = false;
 
   playBeat(i: number) {
     this.currentlyPlaying = true;
-    if(i < this.childBeats.length) {
+    if(i < this.childBeats.length && this.stopPlaying === false) {
       for(let j=0; j<this.childBeats[i].length; j++) {
         if (this.childBeats[i][j].switch === true) {
           let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
@@ -23,10 +24,16 @@ export class PlayBeatComponent {
       setTimeout(() => {
         this.playBeat(i);
       }, 350);
-    }
-    else {
+    } else if (i === this.childBeats.length && this.stopPlaying === false) {
+      this.playBeat(0);
+    } else {
       this.currentlyPlaying = false;
+      this.stopPlaying = false;
     }
+  }
+
+  stopBeat() {
+    this.stopPlaying = true;
   }
 
 }
