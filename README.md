@@ -2,6 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+## Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+|  |  |  |
+
+
+## User Stories
+| Number | User Story |
+| :-------------  | :------------- |
+| 1 | As a user, I can see the sounds available to add to the beat. |
+| 2 | As a user, I can add a sound to the beat at a certain point (between 1 and 16). |
+| 3 | As a user, I can take remove a beat from a certain point (between 1 and 16). |
+| 4 | As a user, I can play the beat I've created. |
+| 5 | As a user, I can stop the beat. |
+| 6 | As a user, I can save my beat. |
+| 7 | As a user, I can play my saved beat. |
+
+## Components
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+|  |  |  |
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
