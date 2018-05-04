@@ -20,9 +20,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | 7 | As a user, I can play my saved beat. |
 
 ## Components
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-|  |  |  |
+| Number | Component |
+| :-------------  | :------------- |
+| 1 | Show sound switches |
+| 2 | Add sound to beat |
+| 3 | Take sound off of beat |
+| 4 | Play beat |
+| 5 | Stop beat |
+| 6 | Save beat |
+| 7 | Show saved beat |
+| 8 | Play saved beat |
+| 9 | Change beat speed |
 
 ## Development server
 
