@@ -9,16 +9,31 @@ import { Sound } from './../models/sounds.model';
 export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
 
-  playBeat() {
-    for(let i=0; i<this.childBeats.length; i++) {
-      for(let j=0; j<this.childBeats[i].length; j++) {
-        if (this.childBeats[i][j].switch === true) {
+  // playBeat() {
+  //   for(let i=0; i<this.childBeats.length; i++) {
+  //     for(let j=0; j<this.childBeats[i].length; j++) {
+  //       if (this.childBeats[i][j].switch === true) {
+  //
+  //         let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
+  //         audioPlayer.play();
+  //       }
+  //     }
+  //   }
+  // }
 
+  playBeat(i: number) {
+    if(i < this.childBeats.length) {
+      console.log(i + "loop");
+      for(let j=0; j<this.childBeats[i].length; j++) {
+        console.log("j loop");
+        if (this.childBeats[i][j].switch === true) {
+          console.log("sound was played");
           let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
           audioPlayer.play();
         }
       }
-      //then wait for a bit, going to have to recurse
+      i = i + 1;
+      setTimeout(this.playBeat(i), 500);
     }
   }
 
