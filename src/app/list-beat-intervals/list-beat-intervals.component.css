@@ -13,3 +13,10 @@ h4 {
   margin-top: 10px;
   height: 80px;
 }
+
+#audiothing {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border: 1px solid black;
+}
