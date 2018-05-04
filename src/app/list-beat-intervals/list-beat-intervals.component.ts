@@ -8,4 +8,15 @@ import { Sound } from './../models/sounds.model';
 })
 export class ListBeatIntervalsComponent {
   @Input() childBeats: Sound[][];
+
+  editBeat(indices: number[]) {
+    let beatIndex = indices[0];
+    let soundIndex = indices[1];
+    if(this.childBeats[beatIndex][soundIndex].switch) {
+      this.childBeats[beatIndex][soundIndex].switch = false;
+    } else {
+      this.childBeats[beatIndex][soundIndex].switch = true;
+    }
+
+  }
 }

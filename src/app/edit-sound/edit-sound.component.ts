@@ -12,6 +12,7 @@ export class EditSoundComponent {
   @Output() toggleSender = new EventEmitter();
 
   toggle(soundIndex: number) {
-    this.toggleSender.emit([this.childSingleBeatIndex, soundIndex]);
+    let indices: number[] = [this.childSingleBeatIndex, soundIndex]
+    this.toggleSender.emit(indices);
   }
 }
