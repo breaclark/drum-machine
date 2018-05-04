@@ -1,7 +1,15 @@
 li {
   float: left;
+  padding: 0px;
 }
 
 ul {
   list-style-type: none;
+  width: 100%;
+}
+
+h4 {
+  width: 100px;
+  margin-top: 10px;
+  height: 80px;
 }
