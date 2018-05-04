@@ -23,17 +23,16 @@ export class PlayBeatComponent {
 
   playBeat(i: number) {
     if(i < this.childBeats.length) {
-      console.log(i + "loop");
       for(let j=0; j<this.childBeats[i].length; j++) {
-        console.log("j loop");
         if (this.childBeats[i][j].switch === true) {
-          console.log("sound was played");
           let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
           audioPlayer.play();
         }
       }
       i = i + 1;
-      setTimeout(this.playBeat(i), 500);
+      setTimeout(() => {
+        this.playBeat(i);
+      }, 300);
     }
   }
 
