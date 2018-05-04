@@ -1,6 +1,25 @@
 # DrumMachine
 
+## A website made using angular and multiple components.
+## By Brea Borlas
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+## Setup/Installation Requirements
+
+1. Clone this repository
+2. Navigate into the local repository folder
+3. Run npm install
+4. Run ng serve to open in a browser
+
+## Known Bugs
+* No known bugs.
+
+## Technologies Used
+* HTML
+* CSS
+* Javascript
+* Angular
 
 ## User Stories
 | Number | User Story |
@@ -48,3 +67,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Support and contact details
+
+_Email me at breatortilla@gmail.com for support_
+
+### License
+
+Copyright (c) 2018 **_{Brea Borlas}_**
