@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Sound } from './../models/sounds.model';
 
 @Component({
@@ -6,11 +6,6 @@ import { Sound } from './../models/sounds.model';
   templateUrl: './list-beat-intervals.component.html',
   styleUrls: ['./list-beat-intervals.component.css']
 })
-export class ListBeatIntervalsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class ListBeatIntervalsComponent {
+  @Input() childBeats: Sound[];
 }
