@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ListBeatIntervalsComponent } from './list-beat-intervals/list-beat-intervals.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListBeatIntervalsComponent
   ],
   imports: [
     BrowserModule
