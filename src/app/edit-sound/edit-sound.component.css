@@ -1,0 +1,17 @@
+img {
+  width: 40px;
+}
+
+button {
+  padding: 0px;
+}
+
+li {
+  width: 100%;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}

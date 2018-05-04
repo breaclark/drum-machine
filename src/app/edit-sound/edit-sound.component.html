@@ -1,5 +1,8 @@
 <ul>
   <li *ngFor="let soundInBeat of childSingleBeat; let j = index" [attr.data-index]="j">
-    <button type="button" (click) ="toggle(j)">{{j}} {{childSingleBeat[j].name}} {{childSingleBeat[j].switch}}</button>
+    <button type="button" (click) ="toggle(j)">
+      <img [src]="childSingleBeat[j].switchImg">
+      <!-- {{j}} {{childSingleBeat[j].name}} {{childSingleBeat[j].switch}} -->
+    </button>
   </li>
 </ul>

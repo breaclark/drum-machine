@@ -1,3 +1,7 @@
 li {
   float: left;
 }
+
+ul {
+  list-style-type: none;
+}
