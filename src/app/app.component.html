@@ -1,7 +1,7 @@
-<div style="text-align:center">
+<div>
   <h1>
     {{ title }}
   </h1>
-  <app-list-beat-intervals [childBeats] = "beats" (beatsSender)="editBeats($event)"></app-list-beat-intervals>
   <app-play-beat [childBeats] = "beats"></app-play-beat>
+  <app-list-beat-intervals [childBeats] = "beats" (beatsSender)="editBeats($event)"></app-list-beat-intervals>
 </div>
