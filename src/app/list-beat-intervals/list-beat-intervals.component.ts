@@ -15,10 +15,10 @@ export class ListBeatIntervalsComponent {
     let soundIndex = indices[1];
     if(this.childBeats[beatIndex][soundIndex].switch) {
       this.childBeats[beatIndex][soundIndex].switch = false;
-      this.childBeats[beatIndex][soundIndex].switchImg = "./../../assets/switch-off.png";
+      this.childBeats[beatIndex][soundIndex].switchImg = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png";
     } else {
       this.childBeats[beatIndex][soundIndex].switch = true;
-      this.childBeats[beatIndex][soundIndex].switchImg = "./../../assets/switch-on.png";
+      this.childBeats[beatIndex][soundIndex].switchImg = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-on.png";
     }
     this.beatsSender.emit(this.childBeats);
   }
