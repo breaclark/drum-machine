@@ -9,11 +9,18 @@ ul {
 }
 
 h4 {
+  white-space: nowrap;
+  display: inline block;
   width: 100px;
   margin-top: 10px;
-  font-size: 20px;
-  height: 50px;
+  font-size: 15px;
+  height: 60px;
   color: lightgray;
+  background-color: #6d6d6d;
+  border-radius: 5px;
+  padding: 14px;
+  padding-right: 900px;
+  index: -1;
 }
 
 .row {
