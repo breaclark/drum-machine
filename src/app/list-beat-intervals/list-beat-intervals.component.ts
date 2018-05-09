@@ -10,7 +10,7 @@ export class ListBeatIntervalsComponent {
   @Input() childBeats: Sound[][];
   @Output() beatsSender = new EventEmitter();
 
-  editBeat(indices: number[]) {
+  editBeat(indices: number[]) { 
     let beatIndex = indices[0];
     let soundIndex = indices[1];
     if(this.childBeats[beatIndex][soundIndex].switch) {
