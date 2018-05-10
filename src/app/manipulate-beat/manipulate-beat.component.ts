@@ -29,7 +29,7 @@ export class ManipulateBeatComponent {
       i = i + 1;
       setTimeout(() => {
         this.playBeat(i);
-      }, 350);
+      }, (60000/this.bpmSlider));
     } else if (i === this.childBeats.length && this.stopPlaying === false) {
       this.playBeat(0);
     } else {
