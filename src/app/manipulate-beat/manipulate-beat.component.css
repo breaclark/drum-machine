@@ -1,0 +1,30 @@
+.play-btn {
+  display: inline-block;
+  background-color: #12b768;
+  color: #eae8e8;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  width: 70px;
+
+}
+
+.stop-btn {
+  display: inline-block;
+  background-color: #ff410c;
+  color: #eae8e8;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  width: 70px;
+}
+
+.clear-btn {
+  display: inline-block;
+  background-color: #148dbc;
+  color: #eae8e8;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  width: 80px;
+}
