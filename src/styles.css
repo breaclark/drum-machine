@@ -6,3 +6,7 @@ body {
   background-color: #383838;
   font-family: 'Ubuntu Mono', monospace;
 }
+
+.container {
+  min-width: 1200px;
+}

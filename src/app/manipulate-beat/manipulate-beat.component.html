@@ -1,14 +1,7 @@
-<div *ngIf="currentlyPlaying === false">
-  <button class="play-btn" type="button" (click)="playBeat(0)">Play</button>
-  <p class="stop-btn">Stop</p>
+  <button *ngIf="currentlyPlaying === false" class="play-btn" type="button" (click)="playBeat(0)">Play</button>
+  <p *ngIf="currentlyPlaying === true" class="play-btn">Play</p>
+  <p *ngIf="currentlyPlaying === false" class="stop-btn">Stop</p>
+  <button *ngIf="currentlyPlaying === true" class="stop-btn" type="button" (click)="stopBeat()">Stop</button>
   <button class="clear-btn" type="button" (click)="clearBeat()">Clear</button>
-  <input class="slider" type="range" min="60" max="180" value="100" class="slider" [(ngModel)]="bpmSlider">
+  <input class="slider" type="range" min="60" max="500" value="100" class="slider" [(ngModel)]="bpmSlider">
   <p class="slider-text">{{bpmSlider}} bpm</p>
-</div>
-<div *ngIf="currentlyPlaying === true">
-  <p class="play-btn">Play</p>
-  <button class="stop-btn" type="button" (click)="stopBeat()">Stop</button>
-  <button class="clear-btn" type="button" (click)="clearBeat()">Clear</button>
-  <input class="slider" type="range" min="60" max="180" value="100" class="slider" [(ngModel)]="bpmSlider">
-  <p class="slider-text">{{bpmSlider}} bpm</p>
-</div>
