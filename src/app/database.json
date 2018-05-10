@@ -1,0 +1,325 @@
+{ "beats": [{
+  "beatSequence": [
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+        "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+        "name": "snare",
+        "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+        "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+        "name": "high-hat-open",
+        "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+        "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+        "name": "high-hat-closed",
+        "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+        "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+        "name": "kick",
+        "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+      },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }],
+    [{ "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "kick",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "snare",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-open",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"
+    },
+    { "switch": false,
+      "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",
+      "name": "high-hat-closed",
+      "soundFile": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3"
+    }
+    ]]
+  }]
+}
