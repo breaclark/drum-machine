@@ -7,9 +7,77 @@ import { Sound } from './models/sounds.model';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent { 
+export class AppComponent {
   title = 'Angular Drum Machine Clone';
-  beats : Sound[] [] = [[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")],[new Sound("kick", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3"), new Sound("snare","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3"), new Sound("high-hat-open","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3"), new Sound("high-hat-closed","https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3")]];
+  kickLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3";
+  snareLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3";
+  hhoLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3";
+  hhcLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3";
+  beats : Sound[] [] = [
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)],
+  [new Sound("kick", this.kickLink),
+  new Sound("snare", this.snareLink),
+  new Sound("high-hat-open", this.hhoLink),
+  new Sound("high-hat-closed", this.hhcLink)]];
 
   editBeats (childBeats: Sound[][]){
     this.beats = childBeats;

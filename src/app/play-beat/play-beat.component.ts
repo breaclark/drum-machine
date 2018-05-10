@@ -36,4 +36,8 @@ export class PlayBeatComponent {
     this.stopPlaying = true;
   }
 
+  clearBeat() {
+    console.log("clear");
+  }
+
 }
