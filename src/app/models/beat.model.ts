@@ -1,7 +1,7 @@
 import { Sound } from './sounds.model';
 
 export class Beat {
-  constructor(public beatSequence: Sound[] []) {
+  constructor(public name: string, public beatSequence: Sound[] []) {
 
   }
 }

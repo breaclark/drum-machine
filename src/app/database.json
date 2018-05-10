@@ -1,4 +1,5 @@
 { "beats": [{
+  "name": "The original Beat",
   "beatSequence": [
     [{ "switch": false,
       "switchImg": "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/switch-off.png",

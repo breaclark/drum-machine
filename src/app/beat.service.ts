@@ -6,8 +6,13 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable()
 export class BeatService {
   beats: FirebaseListObservable<any[]>;
+
   constructor(private database: AngularFireDatabase){
     this.beats = database.list('beats');
+  }
+
+  getBeats() {
+    return this.beats;
   }
 
 }
