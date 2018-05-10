@@ -12,12 +12,14 @@ export class ManipulateBeatComponent {
   currentlyPlaying = false;
   stopPlaying = false;
   bpmSlider = 100;
+  currentBeat = 0;
   kickLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3";
   snareLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3";
   hhoLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3";
   hhcLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3";
 
   playBeat(i: number) {
+    this.currentBeat = i + 1;
     this.currentlyPlaying = true;
     if(i < this.childBeats.length && this.stopPlaying === false) {
       for(let j=0; j<this.childBeats[i].length; j++) {

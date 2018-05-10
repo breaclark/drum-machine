@@ -1,7 +1,25 @@
-  <button *ngIf="currentlyPlaying === false" class="play-btn" type="button" (click)="playBeat(0)">Play</button>
-  <p *ngIf="currentlyPlaying === true" class="play-btn">Play</p>
-  <p *ngIf="currentlyPlaying === false" class="stop-btn">Stop</p>
-  <button *ngIf="currentlyPlaying === true" class="stop-btn" type="button" (click)="stopBeat()">Stop</button>
-  <button class="clear-btn" type="button" (click)="clearBeat()">Clear</button>
-  <input class="slider" type="range" min="60" max="500" value="100" class="slider" [(ngModel)]="bpmSlider">
-  <p class="slider-text">{{bpmSlider}} bpm</p>
+<button *ngIf="currentlyPlaying === false" class="play-btn" type="button" (click)="playBeat(0)">Play</button>
+<p *ngIf="currentlyPlaying === true" class="play-btn">Play</p>
+<p *ngIf="currentlyPlaying === false" class="stop-btn">Stop</p>
+<button *ngIf="currentlyPlaying === true" class="stop-btn" type="button" (click)="stopBeat()">Stop</button>
+<button class="clear-btn" type="button" (click)="clearBeat()">Clear</button>
+<input class="slider" type="range" min="60" max="500" value="100" class="slider" [(ngModel)]="bpmSlider">
+<p class="slider-text">{{bpmSlider}} bpm</p>
+<div class="beat-indexes">
+  <p id="first-beat-index" class="short-number" [ngClass]="{'light-up': currentBeat === 1}">1</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 2}">2</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 3}">3</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 4}">4</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 5}">5</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 6}">6</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 7}">7</p>
+  <p class="short-number" [ngClass]="{'light-up': currentBeat === 8}">8</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 9}">9</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 10}">10</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 11}">11</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 12}">12</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 13}">13</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 14}">14</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 15}">15</p>
+  <p class="long-number" [ngClass]="{'light-up': currentBeat === 16}">16</p>
+</div>
