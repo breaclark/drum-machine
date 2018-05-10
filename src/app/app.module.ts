@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { ListBeatIntervalsComponent } from './list-beat-intervals/list-beat-intervals.component';
 import { EditSoundComponent } from './edit-sound/edit-sound.component';
 import { ManipulateBeatComponent } from './manipulate-beat/manipulate-beat.component';
+import { ListStoredBeatsComponent } from './list-stored-beats/list-stored-beats.component';
 
 
 export const firebaseConfig = {
@@ -24,7 +25,8 @@ export const firebaseConfig = {
     AppComponent,
     ListBeatIntervalsComponent,
     EditSoundComponent,
-    ManipulateBeatComponent
+    ManipulateBeatComponent,
+    ListStoredBeatsComponent
   ],
   imports: [
     BrowserModule,
