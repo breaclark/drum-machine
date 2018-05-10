@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Sound } from './../models/sounds.model';
 
 @Component({
@@ -8,8 +8,13 @@ import { Sound } from './../models/sounds.model';
 })
 export class PlayBeatComponent {
   @Input() childBeats: Sound[][];
+  @Output() clearSender = new EventEmitter();
   currentlyPlaying = false;
   stopPlaying = false;
+  kickLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3";
+  snareLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3";
+  hhoLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3";
+  hhcLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-closed.mp3";
 
   playBeat(i: number) {
     this.currentlyPlaying = true;
@@ -37,7 +42,75 @@ export class PlayBeatComponent {
   }
 
   clearBeat() {
-    console.log("clear");
+    if(this.currentlyPlaying === true) {
+      this.stopPlaying = true;
+    }
+    let freshBeats : Sound[] [] = [
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)],
+    [new Sound("kick", this.kickLink),
+    new Sound("snare", this.snareLink),
+    new Sound("high-hat-open", this.hhoLink),
+    new Sound("high-hat-closed", this.hhcLink)]];
+    this.clearSender.emit(freshBeats);
   }
 
 }

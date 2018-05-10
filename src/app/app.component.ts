@@ -82,4 +82,8 @@ export class AppComponent {
   editBeats (childBeats: Sound[][]){
     this.beats = childBeats;
   }
+
+  clearBeats(childBeats: Sound[][]){
+    this.beats = childBeats;
+  }
 }
