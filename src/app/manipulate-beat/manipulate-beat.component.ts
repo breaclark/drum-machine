@@ -11,6 +11,7 @@ export class ManipulateBeatComponent {
   @Output() clearSender = new EventEmitter();
   currentlyPlaying = false;
   stopPlaying = false;
+  bpmSlider = 100;
   kickLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/kick.mp3";
   snareLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/snare.mp3";
   hhoLink = "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/high-hat-open.mp3";
