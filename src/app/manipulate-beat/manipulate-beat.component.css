@@ -28,3 +28,8 @@
   padding: 10px 20px;
   width: 80px;
 }
+
+.slider, .slider-text {
+  display: inline-block;
+  color: #148dbc;
+}
