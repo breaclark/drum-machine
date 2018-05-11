@@ -15,6 +15,7 @@ export class EditSoundComponent {
     let indices: number[] = [this.childSingleBeatIndex, soundIndex]
     this.toggleSender.emit(indices);
     let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + this.childSingleBeatIndex + "-" + soundIndex);
+    audioPlayer.load();
     audioPlayer.play();
   }
 }

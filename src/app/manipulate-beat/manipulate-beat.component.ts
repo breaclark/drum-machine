@@ -21,6 +21,7 @@ export class ManipulateBeatComponent {
       for(let j=0; j<this.childBeats[i].length; j++) {
         if (this.childBeats[i][j].switch === true) {
           let audioPlayer = <HTMLVideoElement> document.getElementById("sound" + "-" + i + "-" + j);
+          audioPlayer.load();
           audioPlayer.play();
         }
       }
