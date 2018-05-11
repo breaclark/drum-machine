@@ -9,8 +9,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Clone this repository
 2. Navigate into the local repository folder
-3. Run npm install
-4. Run ng serve to open in a browser
+3. Create a firebase database
+4. In the firebase console, click "Add firebase to your web app"
+5. In src/app/ create an api-keys file, with the code:
+  export var masterFirebaseConfig = { }
+6. In the curly braces, place the information in curly braces from your firebase console
+7. Run npm install
+8. Run ng serve --open to open in a browser
 
 ## Known Bugs
 * No known bugs.

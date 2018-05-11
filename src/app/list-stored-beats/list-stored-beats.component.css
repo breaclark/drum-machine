@@ -3,6 +3,15 @@ li {
   color: #eae8e8;
 }
 
+ul {
+  background-color: #6d6d6d;
+  padding: 4px 10px;
+  border-radius: 5px;
+  height: 300px;
+  overflow: scroll;
+  width: 500px;
+}
+
 h3 {
   margin-top: 20px;
   font-family: 'Oleo Script Swash Caps', cursive;

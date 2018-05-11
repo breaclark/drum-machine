@@ -5,6 +5,10 @@ h1 {
   font-size: 60px;
 }
 
+p {
+  color: #eae8e8;
+}
+
 app-save-beat {
   display: inline-block;
 }

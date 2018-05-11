@@ -5,5 +5,6 @@
   <app-save-beat [childBeats] = "beats"></app-save-beat>
   <app-manipulate-beat [childBeats] = "beats" (clearSender)="clearBeats($event)"></app-manipulate-beat>
   <app-list-beat-intervals [childBeats] = "beats" (beatsSender)="editBeats($event)"></app-list-beat-intervals>
+  <p>Developed by Brea Borlas using AngularJS as a clone of the website http://drums.dojosto.com/ developed by  Doug Johnston</p>
   <app-list-stored-beats (loadSender)="loadBeatIntoEditor($event)"></app-list-stored-beats>
 </div>
