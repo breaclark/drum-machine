@@ -3,7 +3,9 @@
 ## A website made using angular and multiple components.
 ## By Brea Borlas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5. Check it out at https://breatortilla.github.io/drum-machine/ or https://drum-mach.firebaseapp.com/
+Check it out at https://breatortilla.github.io/drum-machine/ or https://drum-mach.firebaseapp.com/
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Setup/Installation Requirements
 
