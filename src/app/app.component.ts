@@ -89,7 +89,12 @@ export class AppComponent {
   }
 
   changeKit(newKit: string[]) {
-    console.log(newKit);
     this.kit = newKit;
+    for (let i = 0; i < this.beats.length; i++) {
+      this.beats[i][0].changeSound(this.kit[0]);
+      this.beats[i][1].changeSound(this.kit[1]);
+      this.beats[i][2].changeSound(this.kit[2]);
+      this.beats[i][3].changeSound(this.kit[3]);
+    }
   }
 }
