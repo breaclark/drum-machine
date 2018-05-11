@@ -1,1 +1,2 @@
-<button class="save-btn" type="button" (click)="saveBeat()">Save</button>
+<input type="text" #beatName>
+<button class="save-btn" type="button" (click)="saveBeat(beatName.value); beatName.value=''">Save</button>
