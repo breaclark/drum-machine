@@ -15,4 +15,8 @@ export class BeatService {
     return this.beats;
   }
 
+  addBeat(newBeat: Beat) {
+    this.beats.push(newBeat);
+  }
+
 }
