@@ -1,0 +1,17 @@
+
+p {
+  margin: -5px;
+  margin-left: 22px;
+  color: #eae8e8;
+}
+
+button {
+  display: inline-block;
+  background-color: #262626;
+  color: #eae8e8;
+  border-radius: 30px;
+  border: none;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+}

@@ -12,6 +12,7 @@ import { ManipulateBeatComponent } from './manipulate-beat/manipulate-beat.compo
 import { ListStoredBeatsComponent } from './list-stored-beats/list-stored-beats.component';
 import { SaveBeatComponent } from './save-beat/save-beat.component';
 import { LoadSavedBeatComponent } from './load-saved-beat/load-saved-beat.component';
+import { ChangeKitComponent } from './change-kit/change-kit.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     ManipulateBeatComponent,
     ListStoredBeatsComponent,
     SaveBeatComponent,
-    LoadSavedBeatComponent
+    LoadSavedBeatComponent,
+    ChangeKitComponent
   ],
   imports: [
     BrowserModule,
