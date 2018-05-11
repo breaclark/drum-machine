@@ -13,14 +13,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. Navigate into the local repository folder
 3. Create a firebase database
 4. In the firebase console, click "Add firebase to your web app"
-5. In src/app/ create an api-keys file, with the code:
+5. In src/app/ create an api-keys.ts file, with the code:
   export var masterFirebaseConfig = { }
 6. In the curly braces, place the information in curly braces from your firebase console
 7. Run npm install
 8. Run ng serve --open to open in a browser
 
 ## Known Bugs
-* No known bugs.
+* If you are at a high bpm and click a lot of buttons quickly, the app can take a second to catch up
 
 ## Technologies Used
 * HTML
@@ -29,27 +29,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Angular
 
 ## User Stories
-| Number | User Story |
-| :-------------  | :------------- |
-| 1 | As a user, I can see the sounds available to add to the beat. |
-| 2 | As a user, I can add a sound to the beat at a certain point (between 1 and 16). |
-| 3 | As a user, I can take remove a beat from a certain point (between 1 and 16). |
-| 4 | As a user, I can play the beat I've created. |
-| 5 | As a user, I can stop the beat. |
-| 6 | As a user, I can save my beat. |
-| 7 | As a user, I can play my saved beat. |
+| Number | User Story | Completed |
+| :-------------  | :------------- | :-------------|
+| 1 | As a user, I can see the sounds available to add to the beat. | X |
+| 2 | As a user, I can add a sound to the beat at a certain point (between 1 and 16). | X |
+| 3 | As a user, I can take remove a beat from a certain point (between 1 and 16). | X |
+| 4 | As a user, I can play the beat I've created. | X |
+| 5 | As a user, I can stop the beat. | X |
+| 6 | As a user, I can save my beat. | X |
+| 7 | As a user, I can play my saved beat. | X |
+| 8 | As a user, I can change drum kits. | X |
 
 ## Components
 | Number | Component |
 | :-------------  | :------------- |
-| 1 | Show sound switches |
-| 2 | Edit sound on beat |
-| 3 | Play beat |
-| 4 | Stop beat |
-| 5 | Save beat |
-| 6 | Show saved beat |
-| 7 | Play saved beat |
-| 8 | Change beat speed |
+| 1 | Show sound switches (list-beat-intervals)|
+| 2 | Edit sound on beat (edit-sound)|
+| 3 | Play, stop, speed up beat (manipulate-beat)|
+| 4 | Save beat (save-beat)|
+| 5 | Show saved beat (list-stored-beats)|
+| 6 | Play saved beat (load-saved-beat)|
+| 7 | Change drum kit (change-kit)|
 
 ## Development server
 
