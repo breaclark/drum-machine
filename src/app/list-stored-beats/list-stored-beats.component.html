@@ -1,6 +1,6 @@
-  <p>list-stored-beats works!</p>
-  <ul>
-    <li *ngFor="let beat of beats">
-      {{beat.name}}
-    </li>
-  </ul>
+<h4>Stored Beats</h4>
+<ul>
+  <li *ngFor="let beat of beats | async">
+    {{beat.name}}
+  </li>
+</ul>
