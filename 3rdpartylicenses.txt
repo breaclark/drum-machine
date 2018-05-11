@@ -79,6 +79,10 @@ MIT
 MIT
 MIT
 
+angularfire2@4.0.0-rc.0
+MIT
+MIT
+
 css-loader@0.28.11
 MIT
 Copyright JS Foundation and other contributors
