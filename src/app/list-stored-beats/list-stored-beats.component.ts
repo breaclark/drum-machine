@@ -2,6 +2,7 @@ import { Component, Output, OnInit , EventEmitter} from '@angular/core';
 import { BeatService } from '../beat.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Sound } from './../models/sounds.model';
+import { Beat } from './../models/beat.model';
 
 
 @Component({
@@ -20,8 +21,8 @@ export class ListStoredBeatsComponent implements OnInit {
     this.beats = this.beatService.getBeats();
   }
 
-  loadBeatIntoEditor(savedBeat: Sound[][]) {
-    this.loadSender.emit(savedBeat);
+  loadBeatIntoEditor(savedBeat: Beat) {
+    this.loadSender.emit(savedBeat.beatSequence);
   }
 
 

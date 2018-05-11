@@ -2,6 +2,6 @@
 <ul>
   <li *ngFor="let savedBeat of beats | async">
     <app-load-saved-beat [childSavedBeat] = "savedBeat" (loadSender)="loadBeatIntoEditor($event)"></app-load-saved-beat>
-    {{beat.name}}
+    {{savedBeat.name}}
   </li>
 </ul>
