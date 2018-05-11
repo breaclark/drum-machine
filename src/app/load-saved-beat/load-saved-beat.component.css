@@ -1,0 +1,10 @@
+.load-btn {
+  display: inline-block;
+  background-color: #1192a0;
+  color: #eae8e8;
+  border-radius: 5px;
+  border: none;
+  width: 70px;
+  height: 25px;
+  margin: 3px;
+}

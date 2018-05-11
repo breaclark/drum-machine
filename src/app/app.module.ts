@@ -11,6 +11,7 @@ import { EditSoundComponent } from './edit-sound/edit-sound.component';
 import { ManipulateBeatComponent } from './manipulate-beat/manipulate-beat.component';
 import { ListStoredBeatsComponent } from './list-stored-beats/list-stored-beats.component';
 import { SaveBeatComponent } from './save-beat/save-beat.component';
+import { LoadSavedBeatComponent } from './load-saved-beat/load-saved-beat.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     EditSoundComponent,
     ManipulateBeatComponent,
     ListStoredBeatsComponent,
-    SaveBeatComponent
+    SaveBeatComponent,
+    LoadSavedBeatComponent
   ],
   imports: [
     BrowserModule,

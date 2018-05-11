@@ -1,3 +1,14 @@
-h4, li {
+li {
+  list-style-type: none;
   color: #eae8e8;
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #eae8e8;
+}
+
+app-load-saved-beat {
+  display: inline-block;
 }

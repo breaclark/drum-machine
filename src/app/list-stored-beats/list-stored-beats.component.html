@@ -1,6 +1,7 @@
-<h4>Stored Beats</h4>
+<h3>Stored Beats</h3>
 <ul>
   <li *ngFor="let beat of beats | async">
+    <app-load-saved-beat></app-load-saved-beat>
     {{beat.name}}
   </li>
 </ul>
