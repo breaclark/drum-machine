@@ -22,3 +22,20 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
+
+
+@media screen and (max-width: 580px) {
+  img {
+    width: 20px;
+  }
+
+  button {
+    padding: 0px;
+    background: none;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}

@@ -58,3 +58,41 @@
 .light-up {
   background-color: #139356;
 }
+
+@media screen and (max-width: 580px) {
+  .play-btn, .stop-btn, .clear-btn  {
+    font-size: 12px;
+    width: 40px;
+    padding: 0px;
+  }
+
+  .stop-btn {
+    padding-left: 8px;
+  }
+
+  .beat-indexes {
+    font-size: 10px;
+  }
+
+  .beat-indexes .short-number {
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+    color: #eae8e8;
+    margin-right: 12px;
+    border-radius: 3px;
+  }
+
+  .beat-indexes .long-number {
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+    color: #eae8e8;
+    margin-right: 7px;
+    border-radius: 3px;
+  }
+
+  #first-beat-index {
+    margin-left: 80px;
+  }
+}

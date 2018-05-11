@@ -21,3 +21,14 @@ h3 {
 app-load-saved-beat {
   display: inline-block;
 }
+
+@media screen and (max-width: 580px) {
+  li {
+    font-size: 12px;
+  }
+
+  ul {
+    height: 150px;
+    width: 520px;
+  }
+}
