@@ -18,8 +18,8 @@ export class SaveBeatComponent implements OnInit {
   ngOnInit() {
   }
 
-  saveBeat(name: string) {
-    let newBeat = new Beat(name, this.childBeats);
+  saveBeat(beatName: string) {
+    let newBeat = new Beat(beatName, this.childBeats);
     this.beatService.addBeat(newBeat);
   }
 

@@ -1,5 +1,5 @@
 <form>
-  <input type="text" #beatName placeholder="Enter name to save" required>
-  <button *ngIf="beatName.value != ''" class="save-btn" type="button" (click)="saveBeat(beatName.value); beatName.value=''">Save</button>
+  <input type="text" placeholder="Enter name to save" #beatName required>
+  <button *ngIf="beatName.value !== ''" class="save-btn" type="button" (click)="saveBeat(beatName.value); beatName.value=''">Save</button>
   <p *ngIf="beatName.value === ''" class="save-btn">Save</p>
 </form>
