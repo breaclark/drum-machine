@@ -11,20 +11,14 @@ export class ChangeKitComponent  {
 
   setLoFi() {
     let loFiKit = [
-      "./../assets/Cloudy-kick.wav",
-      "./../assets/Cloudy-snare.wav",
-      "./../assets/Cloudy-high-hat-open.wav",
-      "./../assets/Cloudy-high-hat-closed.wav"
+      "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/Cloudy-kick.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/Cloudy-snare.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/Cloudy-high-hat-open.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/Cloudy-high-hat-closed.wav"
     ];
     this.kitSender.emit(loFiKit);
   }
 
   set808() {
     let eight08Kit = [
-      "./../assets/808-kick.wav",
-      "./../assets/808-snare.wav",
-      "./../assets/808-high-hat-open.wav",
-      "./../assets/808-high-hat-closed.wav"
+      "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/808-kick.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/808-snare.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/808-high-hat-open.wav", "https://raw.githubusercontent.com/breatortilla/drum-machine/master/src/assets/808-high-hat-closed.wav"
     ];
     this.kitSender.emit(eight08Kit);
   }
