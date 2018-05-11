@@ -89,6 +89,7 @@ export class AppComponent {
   }
 
   changeKit(newKit: string[]) {
+    console.log(newKit);
     this.kit = newKit;
   }
 }
