@@ -96,3 +96,35 @@
     margin-left: 80px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .beat-indexes {
+    font-size: 6px;
+  }
+
+  .beat-indexes .short-number {
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+    color: #eae8e8;
+    margin-right: 3px;
+    border-radius: 3px;
+  }
+
+  .beat-indexes .long-number {
+    padding-left: 3px;
+    padding-right: 2px;
+    display: inline-block;
+    color: #eae8e8;
+    margin-right: 1px;
+    border-radius: 3px;
+  }
+
+  #first-beat-index {
+    margin-left: 53px;
+  }
+
+  .slider-text {
+    font-size: 10px;
+  }
+}

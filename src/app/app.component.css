@@ -18,3 +18,14 @@ app-save-beat {
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 12px;
+    width: 300px;
+  }
+}

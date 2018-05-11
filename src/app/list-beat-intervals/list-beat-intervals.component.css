@@ -57,3 +57,35 @@ h4 {
     margin-top: -12px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  h4 {
+    white-space: normal;
+    display: inline block;
+    width: 30px;
+    margin-top: 2px;
+    font-size: 8px;
+    height: 34px;
+    color: lightgray;
+    background-color: #6d6d6d;
+    border-radius: 5px;
+    padding: 14px;
+    padding-top: 4px;
+    padding-right: 280px;
+    index: -1;
+  }
+
+  .col-sm-1 {
+    width: 10px;
+  }
+
+  .col-sm-11 {
+    min-width: 330px;
+    width: 330px;
+    margin-left: -20px;
+  }
+
+  .row {
+    margin-top: -12px;
+  }
+}

@@ -16,3 +16,9 @@ body {
     min-width: 550px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .container {
+    min-width: 375px;
+  }
+}
