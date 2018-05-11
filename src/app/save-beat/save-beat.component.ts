@@ -19,8 +19,10 @@ export class SaveBeatComponent implements OnInit {
   }
 
   saveBeat(beatName: string) {
-    let newBeat = new Beat(beatName, this.childBeats);
-    this.beatService.addBeat(newBeat);
+    if (beatName !== '' ) {
+      let newBeat = new Beat(beatName, this.childBeats);
+      this.beatService.addBeat(newBeat);
+    }
   }
 
 }
