@@ -5,5 +5,5 @@
   <app-save-beat [childBeats] = "beats"></app-save-beat>
   <app-manipulate-beat [childBeats] = "beats" (clearSender)="clearBeats($event)"></app-manipulate-beat>
   <app-list-beat-intervals [childBeats] = "beats" (beatsSender)="editBeats($event)"></app-list-beat-intervals>
-  <app-list-stored-beats></app-list-stored-beats>
+  <app-list-stored-beats (loadSender)="loadBeatIntoEditor($event)"></app-list-stored-beats>
 </div>

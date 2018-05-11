@@ -1,7 +1,7 @@
 <h3>Stored Beats</h3>
 <ul>
-  <li *ngFor="let beat of beats | async">
-    <app-load-saved-beat></app-load-saved-beat>
+  <li *ngFor="let savedBeat of beats | async">
+    <app-load-saved-beat [childSavedBeat] = "savedBeat" (loadSender)="loadBeatIntoEditor($event)"></app-load-saved-beat>
     {{beat.name}}
   </li>
 </ul>
