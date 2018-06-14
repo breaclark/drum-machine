@@ -1,7 +1,7 @@
 # DrumMachine
 
 ## A website made using angular and multiple components.
-## By Brea Borlas
+## By Brea Clark
 
 Check it out at https://breatortilla.github.io/drum-machine/ or https://drum-mach.firebaseapp.com/
 
@@ -81,4 +81,4 @@ _Email me at breatortilla@gmail.com for support_
 
 ### License
 
-Copyright (c) 2018 **_{Brea Borlas}_**
+Copyright (c) 2018 **Brea Clark**
