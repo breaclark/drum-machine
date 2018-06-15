@@ -3,7 +3,7 @@
 ## A website made using angular and multiple components.
 ## By Brea Clark
 
-Check it out at https://breaclark.github.io/drum-machine/ or https://drum-mach.firebaseapp.com/
+Check it out at https://drum-mach.firebaseapp.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
